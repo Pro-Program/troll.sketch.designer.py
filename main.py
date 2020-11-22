@@ -19,6 +19,8 @@ def q():
   chicken.pendown()
 def beginfill():
   chicken.begin_fill()
+def endfill():
+  chicken.end_fill()
 
 
 #def endfill()
@@ -48,6 +50,6 @@ chickenscreen.onkey(fna,"d")
 chickenscreen.onkey(p,"e")
 chickenscreen.onkey(q,"q")
 chickenscreen.onkey(beginfill,"b")
-chickenscreen.onkey(beginfill,"b")
+chickenscreen.onkey(endfill,"c")
 chickenscreen.listen()
 GachaGord()
